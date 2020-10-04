@@ -13,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { ProfileComponent } from './profile/profile.component';
 import { FindComponent } from './find/find.component';
 import { ReportComponent } from './report/report.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -33,6 +34,7 @@ import { ReportComponent } from './report/report.component';
     CommonModule,
     NgbPaginationModule,
     NgbAlertModule,
+    FontAwesomeModule,
 
   ],
   providers: [],

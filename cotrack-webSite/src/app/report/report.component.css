@@ -76,3 +76,7 @@ transform: translate(-50%, -50%);
     color: #000;
     width: 150px;
 }
+
+.botao-voltar {
+    background-color: #358e89;
+}

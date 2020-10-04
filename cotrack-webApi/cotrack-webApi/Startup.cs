@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using cotrack_webApi.Configuration;
+using cotrack_webApi.Controllers;
+using cotrack_webApi.Interfaces;
+using cotrack_webApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +29,10 @@ namespace cotrack_webApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IUserService, UserService>();
+
+            services.AddSingleton<UserController>();
+
             services.AddMvc();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
@@ -63,6 +70,9 @@ namespace cotrack_webApi
                 app.UseHsts();
             }
 
+
+            app.UseHttpsRedirection();
+            app.UseMvc();
             app.UseHttpsRedirection();
             app.UseMvc();
             app.UseSwagger();
