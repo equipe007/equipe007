@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace cotrack_webApi.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : ControllerBase
     {
 
