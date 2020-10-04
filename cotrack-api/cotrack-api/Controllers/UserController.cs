@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using cotrack_webApi.Interfaces;
-using cotrack_webApi.Models;
-using cotrack_webApi.Services;
+using cotrack_api.Interfaces;
+using cotrack_api.Models;
+using cotrack_api.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace cotrack_webApi.Controllers
+namespace cotrack_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

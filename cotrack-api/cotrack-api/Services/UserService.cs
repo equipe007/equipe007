@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using cotrack_webApi.Configuration;
-using cotrack_webApi.Interfaces;
-using cotrack_webApi.Models;
+using cotrack_api.Configuration;
+using cotrack_api.Interfaces;
+using cotrack_api.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace cotrack_webApi.Services
+namespace cotrack_api.Services
 {
     public class UserService : IUserService
     {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace cotrack_webApi.Models
+namespace cotrack_api.Models
 {
     public class User
     {
