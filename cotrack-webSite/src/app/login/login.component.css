@@ -7,3 +7,54 @@
     text-align: center;
     padding-top: 2%;
 }
+
+.quadro-login{
+    background-image: url("../../assets/quadro.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 4%;
+
+}
+
+.quadro{
+    margin-top: 2%;
+    height: 390px;
+}
+
+.texto-titulo {
+    text-align: center;
+    color: #41ACA6;
+    
+}
+
+.borda-campo {
+    text-align: center;
+    background-color: #A6A6A6;
+    height: 54px;
+    justify-content: center;
+    padding: 3.5%;
+    margin-left: 7%;
+    border-radius: 26px;
+}
+
+.input-login{
+    border-radius: 20px;
+    width: 250px;
+}
+
+.input-login::placeholder{
+    text-align: center;
+}
+
+.botao-entrar{
+    background-color: #358e89;
+    border: 1px solid #358e89;
+    width: 150px;
+    margin-top: -2%;
+}
+
+.texto-register{
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 4%;
+}

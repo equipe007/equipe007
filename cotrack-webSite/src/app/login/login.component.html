@@ -1,10 +1,28 @@
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 linha-logo">
+        <div class="col-lg-12 linha-logo">
             <img src="../../assets/logo.jpg" alt="logo" class="logo">
         </div>
     </div>
-    <div>
-        <button type="button" class="btn btn-primary">Primary</button>
+    <div class="row quadro">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 quadro-login">
+           <h2 class="texto-titulo">Login</h2>
+           <form>
+               <div class="col-lg-10 borda-campo">
+                    <input type="text" name="Email" id="email" class="input-login" placeholder="E-mail">
+               </div>
+               <div class="col-lg-10 borda-campo" style="margin-top:6%;">
+                <input type="password" name="Senha" id="senha" class="input-login" placeholder="Password">
+               </div>
+               <div class="col-lg-10 borda-campo" style="margin-top:6%;">
+                <a routerLink="/find"><button type="button" class="btn btn-primary botao-entrar">Enter</button></a>
+               </div>
+               <div class="col-lg-10 texto-register">
+                <p>Not a member? <a routerLink="/register">Register</a></p>
+               </div>               
+           </form>
+        </div>
+        <div class="col-lg-4"></div>
     </div>
 </div>

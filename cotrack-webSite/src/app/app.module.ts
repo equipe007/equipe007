@@ -32,7 +32,7 @@ import { ReportComponent } from './report/report.component';
     FormsModule,
     CommonModule,
     NgbPaginationModule,
-    NgbAlertModule
+    NgbAlertModule,
 
   ],
   providers: [],
